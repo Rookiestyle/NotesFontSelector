@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotesFontSelector", "src\NotesFontSelector.csproj", "{7F1CBCA7-4AC2-4643-A54F-FF18BC102A15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeePass", "..\_KeePass_Source\KeePass\KeePass.csproj", "{10938016-DEE2-4A25-9A5A-8FD3444379CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1AE6E3F5-8E10-49F8-B755-6DA89966838D}"
+	ProjectSection(SolutionItems) = preProject
+		plgxcreate.cmd = plgxcreate.cmd
+		version.info = version.info
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		ReleasePlgx|Any CPU = ReleasePlgx|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F1CBCA7-4AC2-4643-A54F-FF18BC102A15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F1CBCA7-4AC2-4643-A54F-FF18BC102A15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F1CBCA7-4AC2-4643-A54F-FF18BC102A15}.ReleasePlgx|Any CPU.ActiveCfg = ReleasePlgx|Any CPU
+		{7F1CBCA7-4AC2-4643-A54F-FF18BC102A15}.ReleasePlgx|Any CPU.Build.0 = ReleasePlgx|Any CPU
+		{10938016-DEE2-4A25-9A5A-8FD3444379CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10938016-DEE2-4A25-9A5A-8FD3444379CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10938016-DEE2-4A25-9A5A-8FD3444379CA}.ReleasePlgx|Any CPU.ActiveCfg = Release|Any CPU
+		{10938016-DEE2-4A25-9A5A-8FD3444379CA}.ReleasePlgx|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9AA61683-DA40-479F-BDFD-0E862C32F65A}
+	EndGlobalSection
+EndGlobal
