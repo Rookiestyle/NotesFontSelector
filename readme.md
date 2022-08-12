@@ -10,7 +10,6 @@ Per default KeePass only allows you to select fonts for
 * passwords
 
 If you want a different font for notes and do not want to change this in windows, this plugin is for you.
-You can also decide to not show expired entries at all.
 
 # Table of Contents
 - [Configuration](#configuration)
