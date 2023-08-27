@@ -8,16 +8,16 @@ using System.Runtime.InteropServices;
 // associated with an assembly.
 [assembly: AssemblyTitle("Notes Font Selector")]
 [assembly: AssemblyDescription("Change the font used for entry notes")]
-[assembly: AssemblyConfiguration ("")]
-[assembly: AssemblyCompany ("rookiestyle")]
-[assembly: AssemblyProduct ("KeePass Plugin")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("rookiestyle")]
+[assembly: AssemblyProduct("KeePass Plugin")]
 [assembly: AssemblyCopyright("Copyright 2022")]
-[assembly: AssemblyTrademark ("")]
-[assembly: AssemblyCulture ("")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
 // Setting ComVisible to false makes the types in this assembly not visible 
 // to COM components.  If you need to access a type in this assembly from 
 // COM, set the ComVisible attribute to true on that type.
-[assembly: ComVisible (false)]
+[assembly: ComVisible(false)]
 // The following GUID is for the ID of the typelib if this project is exposed to COM
 [assembly: Guid("dbb79a3b-300a-4ea2-9685-8675ba42b9d4")]
 // Version information for an assembly consists of the following four values:
