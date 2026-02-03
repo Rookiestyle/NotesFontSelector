@@ -95,7 +95,12 @@ namespace NotesFontSelector
       //Add our controls
       m_gbFonts.Controls.Add(m_cbNotesActive);
       m_gbFonts.Controls.Add(m_bNotesActive);
-
+      if (KeeThemeStub.Enabled)
+      {
+        KeeThemeStub.Visit(m_cbNotesActive, m_bNotesActive);
+        m_bNotesActive.Enabled = !m_bNotesActive.Enabled;
+        m_bNotesActive.Enabled = !m_bNotesActive.Enabled;
+      }
       PluginDebug.AddSuccess("Plugin options added", 0);
     }
 
